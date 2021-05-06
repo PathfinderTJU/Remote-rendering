@@ -1,6 +1,5 @@
-# -
+# 毕业设计：虚拟文物展的远程渲染研究
 A remote 3D rendering project based on movtion forecast. Using pygame+pyopengl as backend.
-本科毕业设计——虚拟文物展的远程渲染方法研究：
 
 - 研究目标：实现文物三维模型的远程渲染
 - 技术要点

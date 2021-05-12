@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>远程渲染前端系统</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+    <script type="text/javascript" src="./scripts/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+</head>
+
+<body>
+    <div class="outside_block">
+        <div class="choose_block">
+            <select id="type">
+                <option value="none">请选择模型（空）</option>
+                <option value="taibaoding">太保鼎</option>
+                <option value="ChunPingXiuFu">春瓶</option>
+                <option value="BaXianHuLu_10">八仙葫芦</option>
+                <option value="yyt">鱼砚台</option>
+                <option value="up">鱼砚台盒子（上）</option>
+                <option value="down">鱼砚台盒子（下）</option>
+                <option value="shuangyu">双鱼</option>
+            </select>
+        </div>
+        <div class="container animation-2" style="visibility: hidden;">
+            <div class="shape shape1 "></div>
+            <div class="shape shape2 "></div>
+            <div class="shape shape3 "></div>
+            <div class="shape shape4 "></div>
+        </div>
+    </div>
+    <div class="box_1 ">
+        <img id="image" />
+    </div>
+</body>
+
+</html>

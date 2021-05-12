@@ -1,0 +1,31 @@
+@import "./animation.css";
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.outside_block {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.choose_block {
+    margin-right: 10px;
+}
+
+.box_1 {
+    background-color: black;
+    text-align: center;
+    height: 100%;
+}
+
+#image {
+    height: 100%;
+}
